@@ -71,7 +71,7 @@ function show_embedding(
   L_u = sort( unique( L ) )
   nc  = length( L_u )
 
-  f = Figure(resolution = res)
+  f = Figure(size = res)
   ax = (nc>1) ? Axis(f[2, 1]) : Axis(f[1, 1])
 
 
